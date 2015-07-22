@@ -15,7 +15,6 @@ public class Server extends JFrame implements ActionListener {
     public Server() {
         super("防盗 App 服务器");
 
-
         JPanel buttonsPanel = new JPanel();
 
         startServerButton = new JButton();
