@@ -2,10 +2,6 @@ import java.awt.BorderLayout;
 import javax.swing.*;
 import java.awt.event.*;
 
-/**
- * 服务器端主程序负责界面，以及服务段主线程ServerThread的启动
- * 服务端主线程ServerThread又产生BroadCast及ClientThread线程 建立服务器端主界面中所用到的布局方式
- */
 public class Server extends JFrame implements ActionListener {
     private JButton startServerButton;
     private JButton closeServerButton;
